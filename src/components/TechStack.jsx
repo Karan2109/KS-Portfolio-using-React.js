@@ -89,7 +89,7 @@ const TechStack = () => {
           <SiTypescript className="text-7xl text-blue-600" />
         </motion.div>
         <motion.div
-          variants={iconVariants(5.5)}
+          variants={iconVariants(4.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -97,7 +97,7 @@ const TechStack = () => {
           <SiJquery className="text-7xl text-blue-600" />
         </motion.div>
         <motion.div
-          variants={iconVariants(6)}
+          variants={iconVariants(3.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -105,7 +105,7 @@ const TechStack = () => {
           <TbBrandRedux className="text-7xl text-purple-600" />
         </motion.div>
         <motion.div
-          variants={iconVariants(6.5)}
+          variants={iconVariants(2.5)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
