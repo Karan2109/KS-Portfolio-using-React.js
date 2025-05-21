@@ -2,8 +2,25 @@ import Ecomm from "./assets/Ecomm.png";
 import Gym from "./assets/gym1.png";
 import EMS from "./assets/EMS.png";
 import Blog from "./assets/Blog.png";
+import FtoW from "./assets/FtoW1.png";
 
 export const PROJECTS = [
+  {
+    title: "Pixel-Perfect Frontend from Figma Mockup",
+    image: FtoW,
+    description:
+      "This project demonstrates my ability to convert a high-fidelity Figma design into a fully responsive and functional web interface using modern frontend technologies. I built the layout using React.js and styled it with Tailwind CSS, ensuring pixel-perfect accuracy and consistent responsiveness across devices. The project highlights my skills in component-based architecture, reusable UI elements, and clean, maintainable code structure.",
+    technologies: [
+      "JavaScript",
+      "React.js",
+      "Tailwind CSS",
+      "Context API",
+      "CRUD",
+      "Count function",
+    ],
+    viewLink: "https://agencystudio.netlify.app/",
+    codeLink: "https://github.com/Karan2109/ThemeWeb",
+  },
   {
     title: "Employee Management System",
     image: EMS,
