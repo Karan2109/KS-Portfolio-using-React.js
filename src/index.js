@@ -3,8 +3,32 @@ import Gym from "./assets/gym1.png";
 import EMS from "./assets/EMS.png";
 import Blog from "./assets/Blog.png";
 import FtoW from "./assets/FtoW1.png";
+import MV from "./assets/MV Logo.jpg";
 
 export const PROJECTS = [
+  {
+    title: "M-Vastra – Modern E-commerce Web App",
+    image: MV,
+    description:
+      "M-Vastra (Modern Vastra) is a fully responsive full-stack e-commerce application built using the MERN stack. It features user authentication, dynamic product listings, cart management, secure PayPal integration, and an admin panel for product and order control. Designed with Tailwind CSS for a clean UI and developed with Redux Toolkit and Thunk for efficient state management, this project reflects 45 days of full-stack development effort.",
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Redux Thunk",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Multer",
+      "Cloudinary",
+      "PayPal Integration",
+      "Postman",
+      "React Router",
+      "Sonner",
+    ],
+    viewLink: "https://mvastra-ecomm.vercel.app/",
+    codeLink: "https://github.com/Karan2109/Ecomm",
+  },
   {
     title: "Pixel-Perfect Frontend from Figma Mockup",
     image: FtoW,
